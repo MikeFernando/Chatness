@@ -7,8 +7,6 @@
 body {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
   margin: 0px;
   font-family: 'Avenir', sans-serif;
   overflow: hidden !important;
@@ -59,20 +57,10 @@ button.ce-new-chat-button {
   color: rgb(56, 133, 150) !important;
 }
 
+button .ce-custom-send-button {
+  color: #fff !important;
+} 
+
 svg:hover {
   color: rgb(62, 215, 249) !important;
-}
-
-.chat-wrapper {
-  height: 80vh; 
-  width: 80%;
-  margin-left: 10%; 
-  color: white; 
-  background: rgb(43, 47, 60);
-}
-
-@media(max-width: 768px) {
-  svg {
-    width: 250px;
-  }
 }

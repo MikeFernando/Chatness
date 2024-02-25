@@ -10,7 +10,6 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
-    vertical-align: middle;
 `;
 
 export const FormCard = styled.form`
