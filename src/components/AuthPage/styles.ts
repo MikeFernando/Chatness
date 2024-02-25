@@ -1,17 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
     width: 100vw;
     height: 100vh;
     background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
-    display: table-cell;
     vertical-align: middle;
 `;
 
 export const FormCard = styled.form`
-    width: 50%;
-    max-width: 350px;
-    padding: 0% 25% 0% 25%;
+    max-width: 375px;
+    width: 100%;
 `;
 
 export const FormTitle = styled.div`
@@ -51,7 +55,7 @@ export const Input = styled.input`
     border: none;
     border-radius: 8px;
     padding: 32px 18px 12px 18px;
-    width: calc(100% - 18px - 18px);
+    width: 100%;
     margin-bottom: 12px;
 `;
 
