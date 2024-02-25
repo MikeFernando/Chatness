@@ -1,0 +1,73 @@
+body {
+  /* background-image: url('./assets/valley.jpeg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  font-family: 'Avenir', sans-serif;
+  overflow: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+}
+
+.auth-button:hover { filter: brightness(145%); }
+
+.ce-chat-card {
+  background-color: #274054 !important;
+}
+.ce-active-chat-card {
+  background-color: #274054 !important;
+  filter: brightness(145%) !important;
+  border-color: #274054 !important;
+}
+
+.ce-my-message-body,
+.ce-custom-send-button {
+  background-color: rgb(56, 133, 150) !important;
+  box-shadow: rgba(29, 186, 214, 0.35) 0px 2px 7px !important;
+}
+
+.ce-my-message-timestamp {
+  color: rgb(56, 133, 150) !important;
+}
+.ce-custom-message-input,
+.ce-custom-send-button,
+.css-14ft38c-control {
+  border-color: rgb(56, 133, 150) !important;
+  box-shadow: rgba(29, 186, 214, 0.35) 0px 2px 7px !important;
+}
+
+.css-1s2s82g-control {
+  border-color: rgb(56, 133, 150) !important;
+  box-shadow: rgba(29, 186, 214, 0.35) 0px 2px 7px !important;
+}
+
+.ce-avatar ce-custom-header-avatar {
+  border: 1px solid rgb(62, 215, 249) !important;
+}
+
+button.ce-new-chat-button {
+  color: rgb(56, 133, 150) !important;
+}
+
+svg:hover {
+  color: rgb(62, 215, 249) !important;
+}
+
+.chat-wrapper {
+  height: 80vh; 
+  width: 80%;
+  margin-left: 10%; 
+  color: white; 
+  background: rgb(43, 47, 60);
+}
+
+@media(max-width: 768px) {
+  svg {
+    width: 250px;
+  }
+}
