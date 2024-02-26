@@ -12,6 +12,16 @@ body {
   overflow: hidden !important;
 }
 
+input[type='text']{
+  font-size: 16px !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  input:focus {
+    font-size: 16px !important;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 0; 
   background: transparent; 
@@ -73,34 +83,33 @@ svg:hover {
 
 @media(max-width: 768px) {
   .sc-iBdnpw > div{
-    overflow: hidden !important;
+    overflow: auto !important;
     display: flex !important;
     flex-direction: column !important;
+    background-color: rgb(40, 43, 54) !important;
+    padding-bottom: 20px;
   }
 
-  
   .ce-chat-card 
   .ce-active-chat-card.false {
     display: none !important;
   } 
 
-  .ce-message-list {
-    height: calc((100% - 230px) - 72px - 24px - 12px) !important;
-  }
-
-  .sc-iBdnpw div:nth-of-type(2) {
-    flex: 0 0 0 !important;
-  }
   .sc-iBdnpw div:nth-of-type(3) {
     max-width: 100% !important;
   }
   .sc-iBdnpw div:nth-of-type(3) .ce-chat-list div:nth-child(n+2) {
     display: none !important;
   }
+  .sc-iBdnpw div:nth-of-type(3) .ce-chat-list > div {
+    padding: 0 !important;
+  }
   .sc-iBdnpw div:nth-of-type(4) .ce-chat-feed .ce-message-list {
     overflow-y: auto;
-    height: 1000px;
   }
+  /* .sc-iBdnpw div:nth-of-type(5) {
+    display: none !important;
+  } */
   .ce-custom-header-icon-wrapper {
     margin-left: auto;
   }

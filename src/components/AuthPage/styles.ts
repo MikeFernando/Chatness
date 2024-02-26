@@ -16,6 +16,12 @@ export const FormCard = styled.form`
     max-width: 375px;
     width: 100%;
     padding: 100px 0;
+
+    @media(max-width: 768px) {
+        svg {
+            width: 200px !important;
+        }
+    }
 `;
 
 export const FormTitle = styled.div`
@@ -54,7 +60,7 @@ export const Input = styled.input`
     outline: none;
     border: none;
     border-radius: 8px;
-    padding: 32px 18px 12px 18px;
+    padding: 22px 18px 12px 18px;
     width: 100%;
     margin-bottom: 12px;
 `;
@@ -62,7 +68,7 @@ export const Input = styled.input`
 export const Button = styled.button`
     font-size: 16px;
     width: 100%;
-    height: 60px;
+    height: 48px;
     color: white;
     background-color: rgb(56, 133, 150);
     border: none;
