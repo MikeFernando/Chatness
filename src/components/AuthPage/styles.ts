@@ -63,6 +63,7 @@ export const Input = styled.input`
     padding: 22px 18px 12px 18px;
     width: 100%;
     margin-bottom: 12px;
+    font-size: 1rem;
 `;
 
 export const Button = styled.button`

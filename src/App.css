@@ -38,6 +38,10 @@ input[type='text']{
   border-color: #274054 !important;
 }
 
+.ce-custom-message-form :focus {
+  font-size: 16px !important;
+}
+
 .ce-my-message-body,
 .ce-custom-send-button {
   background-color: rgb(56, 133, 150) !important;
@@ -71,6 +75,9 @@ button.ce-new-chat-button {
   display: none !important;
 }
 
+.ce-message-list {
+  margin-top: 0 !important;
+}
 
 
 button .ce-custom-send-button {
@@ -81,54 +88,20 @@ svg:hover {
   color: rgb(62, 215, 249) !important;
 }
 
+
 @media(max-width: 768px) {
-  .sc-iBdnpw > div{
-    overflow: auto !important;
-    display: flex !important;
-    flex-direction: column !important;
-    background-color: rgb(40, 43, 54) !important;
-    padding-bottom: 20px;
+  .ce-new-chat-button {
+    display: block !important;
+    position: absolute !important;
+    position: absolute !important;
+    z-index: 2000 !important;
+    top: 69px !important;
+    left: 27px !important;
   }
 
-  .ce-chat-card 
-  .ce-active-chat-card.false {
-    display: none !important;
-  } 
-
-  .sc-iBdnpw div:nth-of-type(3) {
-    max-width: 100% !important;
-  }
-  .sc-iBdnpw div:nth-of-type(3) .ce-chat-list div:nth-child(n+2) {
-    display: none !important;
-  }
-  .sc-iBdnpw div:nth-of-type(3) .ce-chat-list > div {
-    padding: 0 !important;
-  }
-  .sc-iBdnpw div:nth-of-type(4) .ce-chat-feed .ce-message-list {
-    overflow-y: auto;
-  }
-  /* .sc-iBdnpw div:nth-of-type(5) {
-    display: none !important;
-  } */
-  .ce-custom-header-icon-wrapper {
-    margin-left: auto;
-  }
-  .sc-iBdnpw div:nth-of-type(4) {
-    max-width: 100% !important;
-  } 
-  .ce-custom-message-form {
-    display: flex !important;
-    margin-left: 12px !important;
-    margin-right: 12px !important;
-    width: calc(100% - 24px) !important;
-    border-radius: 0px 0px 8px 8px !important;
-    background-color: rgb(62, 64, 75) !important;
-    justify-content: space-between !important;
-    align-items: end !important;
-    padding: 20px 15px !important;
-  }
-  .ce-custom-message-input {
-    margin-left: 0 !important;
-    flex: 1 !important;
+  .css-14ft38c-control {
+    position: absolute !important;
+    left: 12px !important;
+    width: 254px !important;
   }
 }
