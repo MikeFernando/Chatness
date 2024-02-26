@@ -26,7 +26,7 @@
 - Projeto simples e estruturado
 - Styled components
 
-  &nbsp;
+&nbsp;
 
 ## 🚀 Melhorias implementadas
 
@@ -56,6 +56,12 @@
 - [Express](https://expressjs.com/)
 
 &nbsp;
+
+<p align="center">
+  <a href="https://chatness-web.netlify.app/" target="_blank">
+    <img alt="Demo on Netlify" src="https://res.cloudinary.com/LukeMorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png">
+  </a>
+</p>
 
 ## 💻 Como usar o projeto
 

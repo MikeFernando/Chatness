@@ -57,10 +57,69 @@ button.ce-new-chat-button {
   color: rgb(56, 133, 150) !important;
 }
 
+.ce-message-date-text {
+  display: none !important;
+}
+
+
+
 button .ce-custom-send-button {
   color: #fff !important;
 } 
 
 svg:hover {
   color: rgb(62, 215, 249) !important;
+}
+
+@media(max-width: 768px) {
+  .sc-iBdnpw > div{
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  
+  .ce-chat-card 
+  .ce-active-chat-card.false {
+    display: none !important;
+  } 
+
+  .ce-message-list {
+    height: calc((100% - 230px) - 72px - 24px - 12px) !important;
+  }
+
+  .sc-iBdnpw div:nth-of-type(2) {
+    flex: 0 0 0 !important;
+  }
+  .sc-iBdnpw div:nth-of-type(3) {
+    max-width: 100% !important;
+  }
+  .sc-iBdnpw div:nth-of-type(3) .ce-chat-list div:nth-child(n+2) {
+    display: none !important;
+  }
+  .sc-iBdnpw div:nth-of-type(4) .ce-chat-feed .ce-message-list {
+    overflow-y: auto;
+    height: 1000px;
+  }
+  .ce-custom-header-icon-wrapper {
+    margin-left: auto;
+  }
+  .sc-iBdnpw div:nth-of-type(4) {
+    max-width: 100% !important;
+  } 
+  .ce-custom-message-form {
+    display: flex !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    width: calc(100% - 24px) !important;
+    border-radius: 0px 0px 8px 8px !important;
+    background-color: rgb(62, 64, 75) !important;
+    justify-content: space-between !important;
+    align-items: end !important;
+    padding: 20px 15px !important;
+  }
+  .ce-custom-message-input {
+    margin-left: 0 !important;
+    flex: 1 !important;
+  }
 }
